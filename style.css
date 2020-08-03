@@ -89,6 +89,10 @@ html, body {
   background-color: #6c53ea;
 }
 
+.btn5 {
+  background-color: #4e9af1;
+}
+
 .btn-blue:hover {
   box-shadow: 2px 1000px 1px #fff inset;
   color: #5c5c5c;
