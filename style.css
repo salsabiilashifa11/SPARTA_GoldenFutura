@@ -175,6 +175,10 @@ html, body {
   padding: 2rem;
 }
 
+a {
+    color: inherit;
+}
+
 
 /*----------------MOBILE-----------------*/
 /*detect screen size*/
@@ -192,5 +196,5 @@ html, body {
     background-image: none;
     background-color: #f3e8ee;
   }
-  
+
 }
