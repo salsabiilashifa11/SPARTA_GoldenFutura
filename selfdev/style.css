@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    overflow: auto;
+    background-color: #fafafa;
+}
+#intro {
+    float: left;
+    width: 60%;
+}
+#intro h1 {
+    text-align: justify;
+    font-size: 5rem;
+    font-weight: 100px;
+    font-family: 'Roboto', serif;
+    margin-bottom: 30px;
+    color: #474747;
+    padding: 15% 5% 5% 20%;   
+}
+#intro p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 5% 15% 20%;
+
+}
+#upcoming {
+    margin-top: 50px;
+    float: right;
+    width: 40%;
+    object-position: center;
+    padding: 20px 3% 3% 3%;
+    background: linear-gradient(to right,#fafafa,#ffbf00);
+    border-bottom-left-radius: 40%;
+
+}
+#upcoming h1 {
+    margin-top: 70px;
+    text-align: center;
+    color: #474747;
+}
+.upcoming-pic {
+    width: 75%;
+    align-items: center;
+    margin-top:5px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+#button {
+    color: #474747;
+    font-family: 'Roboto', serif;
+    font-weight: 100px;
+    padding:15px 15px;
+    background-color: #fafafa;
+    text-align: center;
+    width: 250px;
+    margin-left: 135px;
+    border-radius: 50px;
+    border: solid 3px transparent;
+}
+#button:hover {
+    box-shadow: 2px 1000px 1px #fff;
+    color: #ffbf00;
+    text-decoration: none;
+    background-color: #474747;
+}
+.activity_pic{
+    width:250px;
+    border-radius: 0;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#content {
+    float: left;
+    padding-top: 50px;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 5px;
+    object-fit: cover;
+    object-position: left;
+}
+.box {
+    flex-basis: 32%;
+    object-position: center;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #78cad2;
+    text-align: center;
+    object-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px 50px 10px 50px;
+    height: 800px;
+}
+.box p{
+    text-align: justify;
+}
+.box h2{
+    text-align: justify;
+}
+.kedua {
+    background-color: #d6bbc0;
+}
+.lebar {
+    flex-basis: 64%;
+}
+#button2 {
+    margin-top: 20px;
+    object-position: right;
+    color: #fff;
+    padding:15px 32px;
+    background-color:#ffbf00 ;
+    border-radius: 50px;
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    float: right;
+    border: solid 3px transparent;
+}
+#button2:hover {
+    box-shadow: 2px 1000px 1px #fff inset;
+    color: #474747;
+    text-decoration: none;
+
+}
