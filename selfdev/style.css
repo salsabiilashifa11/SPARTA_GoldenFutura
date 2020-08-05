@@ -96,7 +96,7 @@ main {
     object-position: center;
     margin: 5px;
     border-radius: 10px;
-    background-color: #78cad2;
+    background-color: white;
     text-align: center;
     object-position: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -110,7 +110,7 @@ main {
     text-align: justify;
 }
 .kedua {
-    background-color: #d6bbc0;
+    background: linear-gradient(to top right,#fafafa,#fafafa,#ffbf00);
 }
 .lebar {
     flex-basis: 64%;
