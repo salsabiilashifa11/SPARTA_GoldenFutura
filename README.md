@@ -1,1 +1,0 @@
-# SPARTA_GoldenFutura
