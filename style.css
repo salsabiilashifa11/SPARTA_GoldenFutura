@@ -93,6 +93,10 @@ html, body {
   background-color: #4e9af1;
 }
 
+.btn6{
+  background-color: #ffbf00;
+  color:#ffffff;
+}
 .btn-blue:hover {
   box-shadow: 2px 1000px 1px #fff inset;
   color: #5c5c5c;
@@ -185,8 +189,18 @@ html, body {
   box-sizing: border-box;
 }
 
+.grad {
+    background: linear-gradient(to top right,#fafafa,#fafafa,#ffbf00);
+}
+
 a {
     color: inherit;
+}
+
+a:hover {
+     color:#ffbf00; 
+     text-decoration:none; 
+     cursor:pointer;  
 }
 
 
