@@ -107,7 +107,8 @@ main {
     text-align: justify;
 }
 .box h2{
-    text-align: justify;
+    text-align: center;
+    font-size: x-large;
 }
 .kedua {
     background: linear-gradient(to top right,#fafafa,#fafafa,#ffbf00);
@@ -116,7 +117,7 @@ main {
     flex-basis: 64%;
 }
 #button2 {
-    margin-top: 20px;
+    margin-top: 5px;
     object-position: right;
     color: #fff;
     padding:15px 32px;
